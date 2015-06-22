@@ -46,31 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Ball.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Booster.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Coin.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\MainCamera.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Menu.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Music.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Platform.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\Teleporter.cs" />
-     <Compile Include="Assets\LeviMoore\Roll The Ball\Script\TextureHelper.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Ball.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Booster.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Coin.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\MainCamera.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Menu.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Music.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Platform.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\Teleporter.cs" />
+     <Compile Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Script\TextureHelper.cs" />
+     <Compile Include="Assets\Downloaded Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Script\Player Controller.cs" />
      <Compile Include="Assets\Script\gameController.cs" />
-     <None Include="Assets\LeviMoore\Roll The Ball\Credits.txt" />
-     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
-     <None Include="Assets\LeviMoore\NeedHelp.txt" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/CondorBoH/Documents/GitHub/ROLL/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
+     <None Include="Assets\Downloaded Assets\LeviMoore\Roll The Ball\Credits.txt" />
+     <None Include="Assets\Downloaded Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Downloaded Assets\LeviMoore\NeedHelp.txt" />
+     <None Include="Assets\Downloaded Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{ABFD9FE2-07F8-F99B-F6EB-350B67424505}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

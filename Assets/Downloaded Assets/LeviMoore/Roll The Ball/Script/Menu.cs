@@ -21,6 +21,6 @@ public class Menu : MonoBehaviour
 
     public void Play()
     {
-        Application.LoadLevel("Level 1");
+        Application.LoadLevel("Roll");
     }
 }
